@@ -1,0 +1,157 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.wrapper {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(Visions.jpg);
+    background-attachment: fixed;
+}
+.navbar-inverse {
+    background-color:rgb(3, 11, 27);
+    width: 100%;
+    margin-right: 0px;
+}
+.container-1 {
+    background-color: rgb(3, 11, 27);
+    width:100%;
+}
+.navbar-inverse .navbar-brand {
+    color: cornsilk;
+    font-family: Lobster;
+    font-size: 30px;
+}
+.navbar-inverse .navbar-brand:hover {
+    background-color: cornsilk;
+    color: rgb(3, 11, 27);
+}
+.navbar-inverse .navbar-nav li a {
+    color: cornsilk;
+    font-family: EB Garamond;
+    font-size: 20px;
+}
+.navbar-inverse .navbar-nav li a:hover {
+    background-color: cornsilk;
+    color: rgb(3, 11, 27);
+}
+h1 {
+    margin: 20px;
+    text-align: center;
+    font-family: Lobster;
+    line-height: 25px;
+    color: rgb(190, 3, 28);
+    letter-spacing: 5px;
+    font-size: 40px;
+}
+.image  {
+    background-image: url("Six one.jpg");
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+h2 {
+    margin: 20px;
+    text-align: center;
+    font-family: Lobster;
+    line-height: 25px;
+    color: rgb(190, 3, 28);
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+p {
+    margin: 20px;
+    color: cornsilk;
+    font-family: EB Garamond;
+    font-size: 20px;
+}
+.goals li {
+    margin: 20px;
+    color: cornsilk;
+    font-family: EB Garamond;
+    font-size: 20px;
+}
+
+
+
+.container-3 {
+    margin-top: 100px;
+    background-color:rgb(7, 20, 39) ;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.container-3 img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+}
+.container-3 img:hover {
+    -moz-box-shadow: 5px 5px 10px rgb(204, 22, 22);
+    -webkit-box-shadow: 5px 5px 10px rgb(238, 13, 13);
+    box-shadow: 5px 5px 10px rgb(199, 21, 21);
+}
+
+@media only screen and (min-width: 768px) {
+    .image  {
+        background-image: url("Six one.jpg");
+        height: 400px;
+        width: 400px;
+        margin: 0 auto;
+        background-size: cover;
+        /* background-attachment: fixed; */
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .image  {
+        background-image: url("Six one.jpg");
+        height: 500px;
+        width: 600px;
+        margin: 0 auto;
+        background-size: cover;
+        /* background-attachment: fixed; */
+    }
+    h1 {
+        margin: 20px;
+        text-align: center;
+        font-family: Lobster;
+        line-height: 25px;
+        color: rgb(190, 3, 28);
+        letter-spacing: 5px;
+        font-size: 45px;
+    }
+    h2 {
+        margin: 20px;
+        text-align: center;
+        font-family: Lobster;
+        line-height: 25px;
+        color: rgb(190, 3, 28);
+        letter-spacing: 5px;
+        font-size: 35px;
+    }
+    p {
+        margin: 20px;
+        margin-left: 200px;
+        margin-right: 200px;
+        color: cornsilk;
+        font-family: EB Garamond;
+        font-size: 30px;
+    }
+    .goals li {
+        margin: 20px;
+        margin-left: 200px;
+        margin-right: 200px;
+        color: cornsilk;
+        font-family: EB Garamond;
+        font-size: 30px;
+    }
+    
+}

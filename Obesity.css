@@ -1,0 +1,142 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.wrapper {
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(Visions.jpg);
+    background-attachment: fixed;
+}
+.navbar-inverse {
+    background-color:rgb(3, 11, 27);
+    width: 100%;
+    margin-right: 0px;
+}
+.container-1 {
+    background-color: rgb(3, 11, 27);
+    width:100%;
+}
+.navbar-inverse .navbar-brand {
+    color: cornsilk;
+    font-family: Lobster;
+    font-size: 30px;
+}
+.navbar-inverse .navbar-brand:hover {
+    background-color: cornsilk;
+    color: rgb(3, 11, 27);
+}
+.navbar-inverse .navbar-nav li a {
+    color: cornsilk;
+    font-family: EB Garamond;
+    font-size: 20px;
+}
+.navbar-inverse .navbar-nav li a:hover {
+    background-color: cornsilk;
+    color: rgb(3, 11, 27);
+}
+h1 {
+    margin: 20px;
+    text-align: center;
+    font-family: Lobster;
+    line-height: 25px;
+    color: rgb(190, 3, 28);
+    letter-spacing: 10px;
+    font-size: 40px;
+}
+h2 {
+    margin: 20px;
+    color: rgb(25, 240, 240);
+    font-size: 30px;
+    font-family: EB Garamond;
+}
+p {
+    color: cornsilk;
+    font-family: EB Garamond;
+    font-size: 20px;
+    margin: 20px;
+    line-height: 30px;
+}
+table {
+    width: 300px;
+    color: cornsilk;
+    border: 2px solid rgb(142, 211, 14);
+    margin: 20px;
+    font-size: 20px;
+    background-color: rgb(3, 11, 27);
+    font-family: EB Garamond;
+}
+td {
+    padding: 10px;
+}
+tr:nth-child(2n) {
+    background-color: darkcyan;
+}
+th {
+    padding: 10px;
+    background-color: crimson;
+}
+.points li {
+    color: cornsilk;
+    font-family: EB Garamond;
+    font-size: 20px;
+    margin: 20px;
+    line-height: 30px;
+}
+h3 {
+    color: rgb(190, 3, 28);
+    font-family: Lobster;
+    font-size: 30px;
+}
+.comment {
+    background-color: darkcyan;
+    padding:10px;
+    box-sizing: border-box;
+    margin-bottom: 200px;
+    width: 300px;
+}
+textarea {
+    height:100px;
+    margin-left:20px;
+    margin-bottom: 10px;
+}
+label {
+    color: cornsilk;
+    margin-left:20px;
+    font-family: EB Garamond;
+    font-size: 20px
+}
+button {
+    margin-left: 20px;
+    background-color: rgb(7, 20, 39);
+    color: cornsilk;
+    font-family: EB Garamond;
+    font-size: 20px;
+}
+button:hover {
+    color: rgb(7, 20, 39);
+    background-color: cornsilk;
+}
+.container-3 {
+    margin-top: 100px;
+    background-color:rgb(7, 20, 39) ;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.container-3 img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+}
+.container-3 img:hover {
+    -moz-box-shadow: 5px 5px 10px rgb(204, 22, 22);
+    -webkit-box-shadow: 5px 5px 10px rgb(238, 13, 13);
+    box-shadow: 5px 5px 10px rgb(199, 21, 21);
+}
