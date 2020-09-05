@@ -1,7 +1,7 @@
 window.onload = function () {
     var image = document.querySelector(".image")
-     var backgroundImg=["Six one.jpg",
-                       "Six two.jpg",
+     var backgroundImg=["Six one.JPG",
+                       "Six two.JPG",
                        "Six three.jpg"
                        ]
 
